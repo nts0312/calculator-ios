@@ -34,11 +34,14 @@
                                             <attributedString key="attributedTitle">
                                                 <fragment content="C">
                                                     <attributes>
-                                                        <font key="NSFont" size="28" name="Helvetica"/>
+                                                        <font key="NSFont" size="34" name="Helvetica"/>
                                                     </attributes>
                                                 </fragment>
                                             </attributedString>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onTapClear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="siE-7v-m4z"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7qe-3P-MFC">
                                         <rect key="frame" x="101.5" y="0.0" width="92" height="89.5"/>
@@ -49,11 +52,14 @@
                                             <attributedString key="attributedTitle">
                                                 <fragment content="$">
                                                     <attributes>
-                                                        <font key="NSFont" size="28" name="Helvetica"/>
+                                                        <font key="NSFont" size="34" name="Helvetica"/>
                                                     </attributes>
                                                 </fragment>
                                             </attributedString>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onTapDollar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wWs-JL-ilq"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m02-oy-GiF">
                                         <rect key="frame" x="203.5" y="0.0" width="92" height="89.5"/>
@@ -64,11 +70,14 @@
                                             <attributedString key="attributedTitle">
                                                 <fragment content="()">
                                                     <attributes>
-                                                        <font key="NSFont" size="28" name="Helvetica"/>
+                                                        <font key="NSFont" size="34" name="Helvetica"/>
                                                     </attributes>
                                                 </fragment>
                                             </attributedString>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onTapBrackets:" destination="BYZ-38-t0r" eventType="touchUpInside" id="33I-aK-N0a"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fFn-sn-KHl">
                                         <rect key="frame" x="305.5" y="0.0" width="91.5" height="89.5"/>
@@ -79,11 +88,14 @@
                                             <attributedString key="attributedTitle">
                                                 <fragment content="/">
                                                     <attributes>
-                                                        <font key="NSFont" size="28" name="Helvetica"/>
+                                                        <font key="NSFont" size="34" name="Helvetica"/>
                                                     </attributes>
                                                 </fragment>
                                             </attributedString>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onTapDivide:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DmJ-NB-Qzy"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -99,11 +111,14 @@
                                             <attributedString key="attributedTitle">
                                                 <fragment content="7">
                                                     <attributes>
-                                                        <font key="NSFont" size="28" name="Helvetica"/>
+                                                        <font key="NSFont" size="34" name="Helvetica"/>
                                                     </attributes>
                                                 </fragment>
                                             </attributedString>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onTapSeven:" destination="BYZ-38-t0r" eventType="touchUpInside" id="798-og-F5c"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BOk-n9-PQn">
                                         <rect key="frame" x="101.5" y="0.0" width="92" height="89.5"/>
@@ -114,11 +129,14 @@
                                             <attributedString key="attributedTitle">
                                                 <fragment content="8">
                                                     <attributes>
-                                                        <font key="NSFont" size="28" name="Helvetica"/>
+                                                        <font key="NSFont" size="34" name="Helvetica"/>
                                                     </attributes>
                                                 </fragment>
                                             </attributedString>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onTapEight:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3mm-em-qF7"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xgI-9Z-qRg">
                                         <rect key="frame" x="203.5" y="0.0" width="92" height="89.5"/>
@@ -129,11 +147,14 @@
                                             <attributedString key="attributedTitle">
                                                 <fragment content="9">
                                                     <attributes>
-                                                        <font key="NSFont" size="28" name="Helvetica"/>
+                                                        <font key="NSFont" size="34" name="Helvetica"/>
                                                     </attributes>
                                                 </fragment>
                                             </attributedString>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onTapNine:" destination="BYZ-38-t0r" eventType="touchUpInside" id="djR-Mh-9c0"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v59-5P-Ful">
                                         <rect key="frame" x="305.5" y="0.0" width="91.5" height="89.5"/>
@@ -144,11 +165,14 @@
                                             <attributedString key="attributedTitle">
                                                 <fragment content="x">
                                                     <attributes>
-                                                        <font key="NSFont" size="28" name="Helvetica"/>
+                                                        <font key="NSFont" size="34" name="Helvetica"/>
                                                     </attributes>
                                                 </fragment>
                                             </attributedString>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onTapMultiply:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Aq-xc-lDH"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -164,11 +188,14 @@
                                             <attributedString key="attributedTitle">
                                                 <fragment content="4">
                                                     <attributes>
-                                                        <font key="NSFont" size="28" name="Helvetica"/>
+                                                        <font key="NSFont" size="34" name="Helvetica"/>
                                                     </attributes>
                                                 </fragment>
                                             </attributedString>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onTapFour:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eUP-R6-00G"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lge-cZ-sfG">
                                         <rect key="frame" x="101.5" y="0.0" width="92" height="89.5"/>
@@ -179,11 +206,14 @@
                                             <attributedString key="attributedTitle">
                                                 <fragment content="5">
                                                     <attributes>
-                                                        <font key="NSFont" size="28" name="Helvetica"/>
+                                                        <font key="NSFont" size="34" name="Helvetica"/>
                                                     </attributes>
                                                 </fragment>
                                             </attributedString>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onTapFive:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ywC-ZP-k5g"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9zq-em-Wk7">
                                         <rect key="frame" x="203.5" y="0.0" width="92" height="89.5"/>
@@ -194,11 +224,14 @@
                                             <attributedString key="attributedTitle">
                                                 <fragment content="6">
                                                     <attributes>
-                                                        <font key="NSFont" size="28" name="Helvetica"/>
+                                                        <font key="NSFont" size="34" name="Helvetica"/>
                                                     </attributes>
                                                 </fragment>
                                             </attributedString>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onTapSix:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WiO-YD-Y2W"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IhK-Gh-ZYb">
                                         <rect key="frame" x="305.5" y="0.0" width="91.5" height="89.5"/>
@@ -209,11 +242,14 @@
                                             <attributedString key="attributedTitle">
                                                 <fragment content="-">
                                                     <attributes>
-                                                        <font key="NSFont" size="28" name="Helvetica"/>
+                                                        <font key="NSFont" size="34" name="Helvetica"/>
                                                     </attributes>
                                                 </fragment>
                                             </attributedString>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onTapMinus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N5t-Yk-fea"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -229,11 +265,14 @@
                                             <attributedString key="attributedTitle">
                                                 <fragment content="1">
                                                     <attributes>
-                                                        <font key="NSFont" size="28" name="Helvetica"/>
+                                                        <font key="NSFont" size="34" name="Helvetica"/>
                                                     </attributes>
                                                 </fragment>
                                             </attributedString>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onTapOne:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XWY-q9-J0S"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hIY-Rb-xXt">
                                         <rect key="frame" x="101.5" y="0.0" width="92" height="90"/>
@@ -244,11 +283,14 @@
                                             <attributedString key="attributedTitle">
                                                 <fragment content="2">
                                                     <attributes>
-                                                        <font key="NSFont" size="28" name="Helvetica"/>
+                                                        <font key="NSFont" size="34" name="Helvetica"/>
                                                     </attributes>
                                                 </fragment>
                                             </attributedString>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onTapTwo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mr2-Ag-Ieq"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WbO-Dq-5mJ">
                                         <rect key="frame" x="203.5" y="0.0" width="92" height="90"/>
@@ -259,11 +301,14 @@
                                             <attributedString key="attributedTitle">
                                                 <fragment content="3">
                                                     <attributes>
-                                                        <font key="NSFont" size="28" name="Helvetica"/>
+                                                        <font key="NSFont" size="34" name="Helvetica"/>
                                                     </attributes>
                                                 </fragment>
                                             </attributedString>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onTapThree:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fyd-39-kWn"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bb4-J6-Eef">
                                         <rect key="frame" x="305.5" y="0.0" width="91.5" height="90"/>
@@ -274,11 +319,14 @@
                                             <attributedString key="attributedTitle">
                                                 <fragment content="+">
                                                     <attributes>
-                                                        <font key="NSFont" size="28" name="Helvetica"/>
+                                                        <font key="NSFont" size="34" name="Helvetica"/>
                                                     </attributes>
                                                 </fragment>
                                             </attributedString>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onTapPlus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ln3-LT-9ZB"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -294,11 +342,14 @@
                                             <attributedString key="attributedTitle">
                                                 <fragment content="0">
                                                     <attributes>
-                                                        <font key="NSFont" size="28" name="Helvetica"/>
+                                                        <font key="NSFont" size="34" name="Helvetica"/>
                                                     </attributes>
                                                 </fragment>
                                             </attributedString>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onTapZero:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JuJ-jN-0iF"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HdN-r5-uP4">
                                         <rect key="frame" x="135.5" y="0.0" width="126" height="89.5"/>
@@ -306,8 +357,11 @@
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title=".">
-                                            <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="28"/>
+                                            <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="34"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onTapDecimal:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SBf-cD-kjH"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U1l-8Y-KFB">
                                         <rect key="frame" x="271.5" y="0.0" width="125.5" height="89.5"/>
@@ -318,11 +372,14 @@
                                             <attributedString key="attributedTitle">
                                                 <fragment content="=">
                                                     <attributes>
-                                                        <font key="NSFont" size="28" name="Helvetica"/>
+                                                        <font key="NSFont" size="34" name="Helvetica"/>
                                                     </attributes>
                                                 </fragment>
                                             </attributedString>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onTapEquals:" destination="BYZ-38-t0r" eventType="touchUpInside" id="J7b-og-65y"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -360,6 +417,28 @@
                             <constraint firstItem="P3G-on-deD" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="zef-H9-B7x"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="answerTextField" destination="P3G-on-deD" id="xwK-it-UT2"/>
+                        <outlet property="bracketsButton" destination="m02-oy-GiF" id="rr3-cz-WSw"/>
+                        <outlet property="clearButton" destination="0dl-Ny-OM4" id="s5K-e7-bY8"/>
+                        <outlet property="decimalButton" destination="HdN-r5-uP4" id="LIe-tl-8AH"/>
+                        <outlet property="divideButton" destination="fFn-sn-KHl" id="fXk-3p-Ncl"/>
+                        <outlet property="dollarButton" destination="7qe-3P-MFC" id="vDL-SB-kVF"/>
+                        <outlet property="eightButton" destination="BOk-n9-PQn" id="9m3-Ux-atm"/>
+                        <outlet property="equalButton" destination="U1l-8Y-KFB" id="fKC-DR-OJM"/>
+                        <outlet property="fiveButton" destination="lge-cZ-sfG" id="64J-Pv-35t"/>
+                        <outlet property="fourButton" destination="8Wy-zr-9Xr" id="gb0-kZ-brg"/>
+                        <outlet property="minusButton" destination="IhK-Gh-ZYb" id="wZx-mn-KrF"/>
+                        <outlet property="multiplyButton" destination="v59-5P-Ful" id="9V2-FN-rcd"/>
+                        <outlet property="nineButton" destination="xgI-9Z-qRg" id="YMf-AG-wku"/>
+                        <outlet property="oneButton" destination="pkX-uf-AQX" id="d1v-6c-Mod"/>
+                        <outlet property="plusButton" destination="bb4-J6-Eef" id="Myb-GY-uqL"/>
+                        <outlet property="sevenButton" destination="Txb-Y7-4Vx" id="RUL-SI-oPB"/>
+                        <outlet property="sixButton" destination="9zq-em-Wk7" id="LaD-WR-dvK"/>
+                        <outlet property="threeButton" destination="WbO-Dq-5mJ" id="evA-n0-EBT"/>
+                        <outlet property="twoButton" destination="hIY-Rb-xXt" id="82E-c6-Jy6"/>
+                        <outlet property="zeroButton" destination="I4u-Kf-fbV" id="tvb-v3-bxj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
